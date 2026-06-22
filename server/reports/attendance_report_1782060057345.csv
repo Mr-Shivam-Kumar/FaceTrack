@@ -1,0 +1,436 @@
+S.No.,Student Name,Roll Number,Email,Department,Subject,Subject Code,Date,Status,Verification Method,Face Confidence,Marked At
+1,"Aarush Sharma",CSE2023016,"student16@local.com","Computer Science & Engineering","Computer Networks",CSE401,19/6/2026,PRESENT,face,0.8002,19/6/2026, 1:02:34 pm
+2,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,19/6/2026,PRESENT,face,0.8285,19/6/2026, 9:02:35 am
+3,"Vihaan Sharma",CSE2023004,"student4@local.com","Computer Science & Engineering","Computer Networks",CSE401,19/6/2026,PRESENT,face,0.9220,19/6/2026, 1:00:50 pm
+4,"Dhruv Sharma",CSE2023020,"student20@local.com","Computer Science & Engineering","Computer Networks",CSE401,19/6/2026,PRESENT,face,0.8857,19/6/2026, 1:02:24 pm
+5,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,19/6/2026,PRESENT,face,0.8240,19/6/2026, 9:00:05 am
+6,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,19/6/2026,ABSENT,manual,N/A,19/6/2026, 9:04:25 am
+7,"Ayaan Sharma",CSE2023008,"student8@local.com","Computer Science & Engineering","Computer Networks",CSE401,19/6/2026,PRESENT,face,0.8791,19/6/2026, 1:03:38 pm
+8,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,19/6/2026,LATE,face,0.8637,19/6/2026, 9:16:50 am
+9,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,19/6/2026,PRESENT,face,0.9547,19/6/2026, 9:02:22 am
+10,"Atharv Sharma",CSE2023012,"student12@local.com","Computer Science & Engineering","Computer Networks",CSE401,19/6/2026,PRESENT,face,0.9484,19/6/2026, 1:03:38 pm
+11,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,18/6/2026,PRESENT,face,0.7769,18/6/2026, 12:01:28 pm
+12,"Aarush Sharma",CSE2023016,"student16@local.com","Computer Science & Engineering","Computer Networks",CSE401,18/6/2026,ABSENT,manual,N/A,18/6/2026, 10:00:01 am
+13,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,18/6/2026,PRESENT,face,0.9824,18/6/2026, 12:00:09 pm
+14,"Vihaan Sharma",CSE2023004,"student4@local.com","Computer Science & Engineering","Computer Networks",CSE401,18/6/2026,PRESENT,face,0.9874,18/6/2026, 10:04:34 am
+15,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,18/6/2026,LATE,face,0.8076,18/6/2026, 12:24:55 pm
+16,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,18/6/2026,PRESENT,face,0.8455,18/6/2026, 12:01:48 pm
+17,"Atharv Sharma",CSE2023012,"student12@local.com","Computer Science & Engineering","Computer Networks",CSE401,18/6/2026,PRESENT,face,0.9884,18/6/2026, 10:03:42 am
+18,"Ayaan Sharma",CSE2023008,"student8@local.com","Computer Science & Engineering","Computer Networks",CSE401,18/6/2026,PRESENT,face,0.8142,18/6/2026, 10:00:55 am
+19,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,18/6/2026,PRESENT,face,0.8285,18/6/2026, 12:01:31 pm
+20,"Dhruv Sharma",CSE2023020,"student20@local.com","Computer Science & Engineering","Computer Networks",CSE401,18/6/2026,PRESENT,face,0.7582,18/6/2026, 10:00:13 am
+21,"Aarush Sharma",CSE2023016,"student16@local.com","Computer Science & Engineering","Computer Networks",CSE401,17/6/2026,PRESENT,face,0.9775,17/6/2026, 2:02:06 pm
+22,"Vihaan Sharma",CSE2023004,"student4@local.com","Computer Science & Engineering","Computer Networks",CSE401,17/6/2026,PRESENT,face,0.8022,17/6/2026, 2:02:32 pm
+23,"Dhruv Sharma",CSE2023020,"student20@local.com","Computer Science & Engineering","Computer Networks",CSE401,17/6/2026,PRESENT,face,0.9100,17/6/2026, 2:00:54 pm
+24,"Atharv Sharma",CSE2023012,"student12@local.com","Computer Science & Engineering","Computer Networks",CSE401,17/6/2026,PRESENT,face,0.9520,17/6/2026, 2:02:30 pm
+25,"Ayaan Sharma",CSE2023008,"student8@local.com","Computer Science & Engineering","Computer Networks",CSE401,17/6/2026,PRESENT,face,0.8574,17/6/2026, 2:03:47 pm
+26,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,16/6/2026,PRESENT,face,0.7735,16/6/2026, 11:03:26 am
+27,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,16/6/2026,ABSENT,manual,N/A,16/6/2026, 11:00:30 am
+28,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,16/6/2026,PRESENT,face,0.8871,16/6/2026, 11:03:34 am
+29,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,16/6/2026,PRESENT,face,0.8422,16/6/2026, 11:02:48 am
+30,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,16/6/2026,LATE,face,0.9008,16/6/2026, 11:18:57 am
+31,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,15/6/2026,LATE,face,0.7601,15/6/2026, 1:17:14 pm
+32,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,15/6/2026,ABSENT,manual,N/A,15/6/2026, 10:03:12 am
+33,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,15/6/2026,PRESENT,face,0.8079,15/6/2026, 1:04:04 pm
+34,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,15/6/2026,PRESENT,face,0.8165,15/6/2026, 1:03:57 pm
+35,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Operating Systems",CSE302,15/6/2026,PRESENT,face,0.7965,15/6/2026, 11:01:23 am
+36,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Operating Systems",CSE302,15/6/2026,PRESENT,face,0.8400,15/6/2026, 11:03:34 am
+37,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,15/6/2026,PRESENT,face,0.8615,15/6/2026, 1:00:10 pm
+38,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,15/6/2026,PRESENT,face,0.7762,15/6/2026, 10:00:50 am
+39,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,15/6/2026,PRESENT,face,0.8927,15/6/2026, 10:03:33 am
+40,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Operating Systems",CSE302,15/6/2026,PRESENT,face,0.8374,15/6/2026, 11:01:19 am
+41,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Operating Systems",CSE302,15/6/2026,PRESENT,face,0.9537,15/6/2026, 11:00:45 am
+42,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Operating Systems",CSE302,15/6/2026,ABSENT,manual,N/A,15/6/2026, 11:04:48 am
+43,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,15/6/2026,PRESENT,face,0.8761,15/6/2026, 1:04:58 pm
+44,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Operating Systems",CSE302,15/6/2026,LATE,face,0.8183,15/6/2026, 11:23:29 am
+45,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,15/6/2026,LATE,face,0.7771,15/6/2026, 1:16:32 pm
+46,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Operating Systems",CSE302,15/6/2026,PRESENT,face,0.9783,15/6/2026, 11:00:20 am
+47,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,15/6/2026,ABSENT,manual,N/A,15/6/2026, 1:00:17 pm
+48,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,15/6/2026,PRESENT,face,0.9807,15/6/2026, 1:01:10 pm
+49,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,15/6/2026,PRESENT,face,0.8594,15/6/2026, 1:00:51 pm
+50,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,15/6/2026,PRESENT,face,0.7923,15/6/2026, 10:01:24 am
+51,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Operating Systems",CSE302,15/6/2026,PRESENT,face,0.8660,15/6/2026, 11:03:37 am
+52,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Operating Systems",CSE302,15/6/2026,LATE,face,0.8584,15/6/2026, 11:20:47 am
+53,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,15/6/2026,PRESENT,face,0.9770,15/6/2026, 10:01:43 am
+54,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Operating Systems",CSE302,15/6/2026,PRESENT,face,0.8892,15/6/2026, 11:04:57 am
+55,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,15/6/2026,PRESENT,face,0.9023,15/6/2026, 1:01:13 pm
+56,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,12/6/2026,PRESENT,face,0.7689,12/6/2026, 10:01:01 am
+57,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,12/6/2026,PRESENT,face,0.8495,12/6/2026, 10:02:02 am
+58,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,12/6/2026,LATE,face,0.8347,12/6/2026, 10:21:58 am
+59,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,12/6/2026,ABSENT,manual,N/A,12/6/2026, 10:04:48 am
+60,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,12/6/2026,PRESENT,face,0.8815,12/6/2026, 10:03:21 am
+61,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,12/6/2026,PRESENT,face,0.9171,12/6/2026, 10:03:44 am
+62,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,12/6/2026,ABSENT,manual,N/A,12/6/2026, 10:03:11 am
+63,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,12/6/2026,PRESENT,face,0.9435,12/6/2026, 10:02:20 am
+64,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,12/6/2026,PRESENT,face,0.8005,12/6/2026, 10:01:15 am
+65,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,12/6/2026,PRESENT,face,0.7938,12/6/2026, 10:00:49 am
+66,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,11/6/2026,PRESENT,face,0.7602,11/6/2026, 9:03:13 am
+67,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,11/6/2026,PRESENT,face,0.8533,11/6/2026, 9:03:14 am
+68,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,11/6/2026,PRESENT,face,0.7764,11/6/2026, 9:04:51 am
+69,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,11/6/2026,PRESENT,face,0.8413,11/6/2026, 9:00:37 am
+70,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,11/6/2026,PRESENT,face,0.9387,11/6/2026, 9:01:46 am
+71,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,10/6/2026,PRESENT,face,0.8873,10/6/2026, 12:00:06 pm
+72,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,10/6/2026,PRESENT,face,0.8057,10/6/2026, 12:00:03 pm
+73,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,10/6/2026,PRESENT,face,0.7852,10/6/2026, 12:00:35 pm
+74,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,10/6/2026,PRESENT,face,0.8552,10/6/2026, 12:01:41 pm
+75,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,10/6/2026,PRESENT,face,0.8949,10/6/2026, 12:00:59 pm
+76,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Operating Systems",CSE302,4/6/2026,ABSENT,manual,N/A,4/6/2026, 2:00:34 pm
+77,"Aarush Sharma",CSE2023016,"student16@local.com","Computer Science & Engineering","Computer Networks",CSE401,4/6/2026,PRESENT,face,0.8057,4/6/2026, 11:02:35 am
+78,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Operating Systems",CSE302,4/6/2026,PRESENT,face,0.9175,4/6/2026, 2:02:10 pm
+79,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Operating Systems",CSE302,4/6/2026,PRESENT,face,0.7711,4/6/2026, 2:01:19 pm
+80,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Operating Systems",CSE302,4/6/2026,LATE,face,0.9379,4/6/2026, 2:15:34 pm
+81,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Operating Systems",CSE302,4/6/2026,ABSENT,manual,N/A,4/6/2026, 2:02:02 pm
+82,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Operating Systems",CSE302,4/6/2026,LATE,face,0.9269,4/6/2026, 2:24:28 pm
+83,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Operating Systems",CSE302,4/6/2026,PRESENT,face,0.8348,4/6/2026, 2:00:04 pm
+84,"Dhruv Sharma",CSE2023020,"student20@local.com","Computer Science & Engineering","Computer Networks",CSE401,4/6/2026,PRESENT,face,0.9440,4/6/2026, 11:02:10 am
+85,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Operating Systems",CSE302,4/6/2026,PRESENT,face,0.8500,4/6/2026, 2:04:51 pm
+86,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Operating Systems",CSE302,4/6/2026,LATE,face,0.8825,4/6/2026, 2:22:58 pm
+87,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Operating Systems",CSE302,4/6/2026,LATE,face,0.8690,4/6/2026, 2:17:17 pm
+88,"Ayaan Sharma",CSE2023008,"student8@local.com","Computer Science & Engineering","Computer Networks",CSE401,4/6/2026,ABSENT,manual,N/A,4/6/2026, 11:04:21 am
+89,"Atharv Sharma",CSE2023012,"student12@local.com","Computer Science & Engineering","Computer Networks",CSE401,4/6/2026,ABSENT,manual,N/A,4/6/2026, 11:01:54 am
+90,"Vihaan Sharma",CSE2023004,"student4@local.com","Computer Science & Engineering","Computer Networks",CSE401,4/6/2026,PRESENT,face,0.9188,4/6/2026, 11:04:15 am
+91,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Operating Systems",CSE302,3/6/2026,PRESENT,face,0.9741,3/6/2026, 10:04:24 am
+92,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Operating Systems",CSE302,3/6/2026,PRESENT,face,0.9594,3/6/2026, 10:02:20 am
+93,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/6/2026,PRESENT,face,0.8458,3/6/2026, 11:02:51 am
+94,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/6/2026,PRESENT,face,0.7668,3/6/2026, 11:02:52 am
+95,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/6/2026,ABSENT,manual,N/A,3/6/2026, 11:01:38 am
+96,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Operating Systems",CSE302,3/6/2026,PRESENT,face,0.9683,3/6/2026, 10:02:25 am
+97,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Operating Systems",CSE302,3/6/2026,LATE,face,0.8083,3/6/2026, 10:22:43 am
+98,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/6/2026,PRESENT,face,0.7548,3/6/2026, 11:02:26 am
+99,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/6/2026,ABSENT,manual,N/A,3/6/2026, 11:03:30 am
+100,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/6/2026,ABSENT,manual,N/A,3/6/2026, 11:02:22 am
+101,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Operating Systems",CSE302,3/6/2026,ABSENT,manual,N/A,3/6/2026, 10:03:55 am
+102,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/6/2026,PRESENT,face,0.9465,3/6/2026, 11:00:24 am
+103,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Operating Systems",CSE302,3/6/2026,ABSENT,manual,N/A,3/6/2026, 10:00:46 am
+104,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/6/2026,ABSENT,manual,N/A,3/6/2026, 11:00:20 am
+105,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Operating Systems",CSE302,3/6/2026,PRESENT,face,0.9321,3/6/2026, 10:00:16 am
+106,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Operating Systems",CSE302,3/6/2026,PRESENT,face,0.8429,3/6/2026, 10:03:42 am
+107,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Operating Systems",CSE302,3/6/2026,LATE,face,0.7611,3/6/2026, 10:16:53 am
+108,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/6/2026,PRESENT,face,0.7708,3/6/2026, 11:03:38 am
+109,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Operating Systems",CSE302,3/6/2026,PRESENT,face,0.8451,3/6/2026, 10:01:08 am
+110,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/6/2026,PRESENT,face,0.9167,3/6/2026, 11:00:23 am
+111,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,2/6/2026,PRESENT,face,0.8003,2/6/2026, 1:04:26 pm
+112,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,2/6/2026,PRESENT,face,0.8328,2/6/2026, 1:03:14 pm
+113,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,2/6/2026,ABSENT,manual,N/A,2/6/2026, 1:01:11 pm
+114,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,2/6/2026,PRESENT,face,0.9490,2/6/2026, 1:02:45 pm
+115,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,2/6/2026,PRESENT,face,0.9818,2/6/2026, 1:00:11 pm
+116,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,2/6/2026,PRESENT,face,0.8663,2/6/2026, 1:00:47 pm
+117,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,2/6/2026,PRESENT,face,0.8918,2/6/2026, 1:04:23 pm
+118,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,2/6/2026,ABSENT,manual,N/A,2/6/2026, 1:00:37 pm
+119,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,2/6/2026,PRESENT,face,0.7519,2/6/2026, 1:04:27 pm
+120,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,2/6/2026,PRESENT,face,0.9168,2/6/2026, 1:03:58 pm
+121,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/6/2026,PRESENT,face,0.9469,1/6/2026, 11:03:35 am
+122,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/6/2026,PRESENT,face,0.7781,1/6/2026, 11:03:40 am
+123,"Ayaan Sharma",CSE2023008,"student8@local.com","Computer Science & Engineering","Computer Networks",CSE401,1/6/2026,PRESENT,face,0.9209,1/6/2026, 10:01:59 am
+124,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/6/2026,PRESENT,face,0.7589,1/6/2026, 11:00:11 am
+125,"Atharv Sharma",CSE2023012,"student12@local.com","Computer Science & Engineering","Computer Networks",CSE401,1/6/2026,PRESENT,face,0.9155,1/6/2026, 10:02:41 am
+126,"Aarush Sharma",CSE2023016,"student16@local.com","Computer Science & Engineering","Computer Networks",CSE401,1/6/2026,PRESENT,face,0.8457,1/6/2026, 10:01:40 am
+127,"Dhruv Sharma",CSE2023020,"student20@local.com","Computer Science & Engineering","Computer Networks",CSE401,1/6/2026,PRESENT,face,0.8822,1/6/2026, 10:04:28 am
+128,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/6/2026,PRESENT,face,0.8636,1/6/2026, 11:03:18 am
+129,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/6/2026,PRESENT,face,0.8019,1/6/2026, 11:00:14 am
+130,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/6/2026,PRESENT,face,0.9303,1/6/2026, 11:03:44 am
+131,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/6/2026,PRESENT,face,0.8107,1/6/2026, 11:01:00 am
+132,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/6/2026,ABSENT,manual,N/A,1/6/2026, 11:04:51 am
+133,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/6/2026,PRESENT,face,0.9245,1/6/2026, 11:02:46 am
+134,"Vihaan Sharma",CSE2023004,"student4@local.com","Computer Science & Engineering","Computer Networks",CSE401,1/6/2026,ABSENT,manual,N/A,1/6/2026, 10:03:09 am
+135,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/6/2026,PRESENT,face,0.9612,1/6/2026, 11:01:09 am
+136,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,28/5/2026,PRESENT,face,0.9801,28/5/2026, 2:00:48 pm
+137,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/5/2026,PRESENT,face,0.8168,28/5/2026, 1:04:14 pm
+138,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/5/2026,PRESENT,face,0.9869,28/5/2026, 1:04:43 pm
+139,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,28/5/2026,PRESENT,face,0.7696,28/5/2026, 2:04:01 pm
+140,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,28/5/2026,PRESENT,face,0.8903,28/5/2026, 2:00:38 pm
+141,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/5/2026,ABSENT,manual,N/A,28/5/2026, 1:01:56 pm
+142,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,28/5/2026,LATE,face,0.9116,28/5/2026, 2:17:31 pm
+143,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,28/5/2026,PRESENT,face,0.9841,28/5/2026, 2:04:36 pm
+144,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/5/2026,PRESENT,face,0.8970,28/5/2026, 1:04:14 pm
+145,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,28/5/2026,LATE,face,0.9169,28/5/2026, 2:16:42 pm
+146,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/5/2026,PRESENT,face,0.7965,28/5/2026, 1:03:11 pm
+147,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,28/5/2026,PRESENT,face,0.9227,28/5/2026, 2:03:44 pm
+148,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/5/2026,PRESENT,face,0.7911,28/5/2026, 1:02:17 pm
+149,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/5/2026,ABSENT,manual,N/A,28/5/2026, 1:01:56 pm
+150,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,28/5/2026,PRESENT,face,0.8193,28/5/2026, 2:01:12 pm
+151,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,28/5/2026,PRESENT,face,0.9342,28/5/2026, 2:03:03 pm
+152,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/5/2026,PRESENT,face,0.9753,28/5/2026, 1:01:41 pm
+153,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/5/2026,PRESENT,face,0.8211,28/5/2026, 1:00:04 pm
+154,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,28/5/2026,PRESENT,face,0.9686,28/5/2026, 2:04:11 pm
+155,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/5/2026,PRESENT,face,0.9105,28/5/2026, 1:02:34 pm
+156,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/5/2026,PRESENT,face,0.8037,27/5/2026, 12:03:33 pm
+157,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/5/2026,PRESENT,face,0.9178,27/5/2026, 12:01:18 pm
+158,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/5/2026,LATE,face,0.7849,27/5/2026, 12:18:43 pm
+159,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/5/2026,PRESENT,face,0.9192,27/5/2026, 12:03:44 pm
+160,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/5/2026,PRESENT,face,0.8707,27/5/2026, 12:02:44 pm
+161,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,26/5/2026,PRESENT,face,0.7508,26/5/2026, 10:02:02 am
+162,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,26/5/2026,LATE,face,0.8123,26/5/2026, 10:17:45 am
+163,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,26/5/2026,PRESENT,face,0.8922,26/5/2026, 10:02:29 am
+164,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,26/5/2026,PRESENT,face,0.9146,26/5/2026, 10:01:29 am
+165,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,26/5/2026,PRESENT,face,0.7554,26/5/2026, 10:01:59 am
+166,"Atharv Sharma",CSE2023012,"student12@local.com","Computer Science & Engineering","Computer Networks",CSE401,20/5/2026,PRESENT,face,0.7723,20/5/2026, 12:03:23 pm
+167,"Dhruv Sharma",CSE2023020,"student20@local.com","Computer Science & Engineering","Computer Networks",CSE401,20/5/2026,ABSENT,manual,N/A,20/5/2026, 12:00:22 pm
+168,"Vihaan Sharma",CSE2023004,"student4@local.com","Computer Science & Engineering","Computer Networks",CSE401,20/5/2026,ABSENT,manual,N/A,20/5/2026, 12:04:15 pm
+169,"Ayaan Sharma",CSE2023008,"student8@local.com","Computer Science & Engineering","Computer Networks",CSE401,20/5/2026,PRESENT,face,0.8411,20/5/2026, 12:02:47 pm
+170,"Aarush Sharma",CSE2023016,"student16@local.com","Computer Science & Engineering","Computer Networks",CSE401,20/5/2026,PRESENT,face,0.8457,20/5/2026, 12:02:57 pm
+171,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,19/5/2026,LATE,face,0.9011,19/5/2026, 2:24:53 pm
+172,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,19/5/2026,PRESENT,face,0.8617,19/5/2026, 2:00:17 pm
+173,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,19/5/2026,LATE,face,0.8781,19/5/2026, 2:17:35 pm
+174,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,19/5/2026,PRESENT,face,0.9825,19/5/2026, 2:01:41 pm
+175,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,19/5/2026,PRESENT,face,0.8001,19/5/2026, 2:02:34 pm
+176,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,18/5/2026,PRESENT,face,0.8771,18/5/2026, 10:03:22 am
+177,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,18/5/2026,PRESENT,face,0.8024,18/5/2026, 12:03:49 pm
+178,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,18/5/2026,PRESENT,face,0.8383,18/5/2026, 10:02:01 am
+179,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,18/5/2026,ABSENT,manual,N/A,18/5/2026, 12:04:13 pm
+180,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,18/5/2026,PRESENT,face,0.9313,18/5/2026, 12:04:06 pm
+181,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,18/5/2026,PRESENT,face,0.9246,18/5/2026, 10:04:28 am
+182,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,18/5/2026,PRESENT,face,0.8536,18/5/2026, 12:02:41 pm
+183,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,18/5/2026,PRESENT,face,0.9259,18/5/2026, 12:00:50 pm
+184,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,18/5/2026,PRESENT,face,0.7789,18/5/2026, 12:02:38 pm
+185,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,18/5/2026,ABSENT,manual,N/A,18/5/2026, 12:04:14 pm
+186,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,18/5/2026,PRESENT,face,0.8106,18/5/2026, 12:00:11 pm
+187,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,18/5/2026,PRESENT,face,0.7652,18/5/2026, 10:03:56 am
+188,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,18/5/2026,LATE,face,0.8341,18/5/2026, 12:16:53 pm
+189,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,18/5/2026,LATE,face,0.8456,18/5/2026, 12:24:09 pm
+190,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,18/5/2026,LATE,face,0.7963,18/5/2026, 10:15:40 am
+191,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,15/5/2026,PRESENT,face,0.7885,15/5/2026, 12:03:21 pm
+192,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,15/5/2026,PRESENT,face,0.9575,15/5/2026, 12:02:47 pm
+193,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,15/5/2026,PRESENT,face,0.8426,15/5/2026, 12:00:16 pm
+194,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,15/5/2026,ABSENT,manual,N/A,15/5/2026, 12:00:01 pm
+195,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,15/5/2026,PRESENT,face,0.9284,15/5/2026, 12:01:48 pm
+196,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,14/5/2026,PRESENT,face,0.9082,14/5/2026, 1:01:29 pm
+197,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/5/2026,PRESENT,face,0.8184,14/5/2026, 12:03:59 pm
+198,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/5/2026,ABSENT,manual,N/A,14/5/2026, 12:03:23 pm
+199,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/5/2026,PRESENT,face,0.7580,14/5/2026, 12:01:22 pm
+200,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,14/5/2026,PRESENT,face,0.9807,14/5/2026, 1:00:52 pm
+201,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,14/5/2026,ABSENT,manual,N/A,14/5/2026, 1:04:13 pm
+202,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/5/2026,PRESENT,face,0.9788,14/5/2026, 12:03:16 pm
+203,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/5/2026,PRESENT,face,0.9664,14/5/2026, 12:04:27 pm
+204,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,14/5/2026,PRESENT,face,0.8114,14/5/2026, 1:00:44 pm
+205,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/5/2026,PRESENT,face,0.8235,14/5/2026, 12:01:05 pm
+206,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/5/2026,ABSENT,manual,N/A,14/5/2026, 12:01:19 pm
+207,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/5/2026,ABSENT,manual,N/A,14/5/2026, 12:01:09 pm
+208,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/5/2026,ABSENT,manual,N/A,14/5/2026, 12:03:35 pm
+209,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/5/2026,PRESENT,face,0.7836,14/5/2026, 12:02:09 pm
+210,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,14/5/2026,PRESENT,face,0.8343,14/5/2026, 1:02:51 pm
+211,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,13/5/2026,ABSENT,manual,N/A,13/5/2026, 10:03:55 am
+212,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,13/5/2026,PRESENT,face,0.7804,13/5/2026, 10:00:55 am
+213,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,13/5/2026,PRESENT,face,0.8223,13/5/2026, 10:00:24 am
+214,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,13/5/2026,PRESENT,face,0.8565,13/5/2026, 10:01:26 am
+215,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,13/5/2026,PRESENT,face,0.8556,13/5/2026, 10:03:21 am
+216,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,8/5/2026,ABSENT,manual,N/A,8/5/2026, 10:02:57 am
+217,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,8/5/2026,PRESENT,face,0.8105,8/5/2026, 1:02:24 pm
+218,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,8/5/2026,PRESENT,face,0.8108,8/5/2026, 10:01:43 am
+219,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,8/5/2026,PRESENT,face,0.8411,8/5/2026, 1:02:07 pm
+220,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,8/5/2026,PRESENT,face,0.7760,8/5/2026, 1:01:54 pm
+221,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,8/5/2026,PRESENT,face,0.9874,8/5/2026, 1:00:07 pm
+222,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,8/5/2026,PRESENT,face,0.9797,8/5/2026, 10:04:29 am
+223,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,8/5/2026,PRESENT,face,0.7934,8/5/2026, 1:03:39 pm
+224,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,8/5/2026,PRESENT,face,0.7733,8/5/2026, 1:02:21 pm
+225,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,8/5/2026,PRESENT,face,0.9880,8/5/2026, 10:02:34 am
+226,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,8/5/2026,PRESENT,face,0.8092,8/5/2026, 1:05:00 pm
+227,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,8/5/2026,PRESENT,face,0.9834,8/5/2026, 1:05:00 pm
+228,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,8/5/2026,LATE,face,0.9279,8/5/2026, 10:23:37 am
+229,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,8/5/2026,ABSENT,manual,N/A,8/5/2026, 1:01:09 pm
+230,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,8/5/2026,PRESENT,face,0.9794,8/5/2026, 1:03:09 pm
+231,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,7/5/2026,LATE,face,0.8577,7/5/2026, 2:16:37 pm
+232,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,7/5/2026,PRESENT,face,0.8752,7/5/2026, 2:01:27 pm
+233,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,7/5/2026,PRESENT,face,0.7641,7/5/2026, 2:01:40 pm
+234,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,7/5/2026,PRESENT,face,0.9772,7/5/2026, 2:03:31 pm
+235,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,7/5/2026,ABSENT,manual,N/A,7/5/2026, 2:03:41 pm
+236,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,6/5/2026,PRESENT,face,0.8739,6/5/2026, 9:03:16 am
+237,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,6/5/2026,PRESENT,face,0.8987,6/5/2026, 9:03:20 am
+238,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,6/5/2026,PRESENT,face,0.8834,6/5/2026, 9:00:08 am
+239,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,6/5/2026,PRESENT,face,0.7685,6/5/2026, 9:01:40 am
+240,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,6/5/2026,ABSENT,manual,N/A,6/5/2026, 9:00:03 am
+241,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,6/5/2026,PRESENT,face,0.8848,6/5/2026, 9:03:57 am
+242,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,6/5/2026,LATE,face,0.8663,6/5/2026, 9:16:33 am
+243,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,6/5/2026,PRESENT,face,0.8490,6/5/2026, 9:02:35 am
+244,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,6/5/2026,PRESENT,face,0.9402,6/5/2026, 9:02:37 am
+245,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,6/5/2026,PRESENT,face,0.8746,6/5/2026, 9:03:36 am
+246,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,5/5/2026,PRESENT,face,0.8111,5/5/2026, 1:04:31 pm
+247,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,5/5/2026,ABSENT,manual,N/A,5/5/2026, 1:01:15 pm
+248,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,5/5/2026,ABSENT,manual,N/A,5/5/2026, 1:03:05 pm
+249,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,5/5/2026,PRESENT,face,0.8041,5/5/2026, 1:00:17 pm
+250,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,5/5/2026,PRESENT,face,0.8644,5/5/2026, 1:01:36 pm
+251,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,5/5/2026,PRESENT,face,0.7961,5/5/2026, 1:03:39 pm
+252,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,5/5/2026,PRESENT,face,0.9346,5/5/2026, 1:04:26 pm
+253,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,5/5/2026,ABSENT,manual,N/A,5/5/2026, 1:04:06 pm
+254,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,5/5/2026,PRESENT,face,0.9064,5/5/2026, 1:01:58 pm
+255,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,5/5/2026,PRESENT,face,0.9142,5/5/2026, 1:03:59 pm
+256,"Ayaan Sharma",CSE2023008,"student8@local.com","Computer Science & Engineering","Computer Networks",CSE401,4/5/2026,PRESENT,face,0.8379,4/5/2026, 10:03:17 am
+257,"Atharv Sharma",CSE2023012,"student12@local.com","Computer Science & Engineering","Computer Networks",CSE401,4/5/2026,PRESENT,face,0.7613,4/5/2026, 10:03:51 am
+258,"Vihaan Sharma",CSE2023004,"student4@local.com","Computer Science & Engineering","Computer Networks",CSE401,4/5/2026,PRESENT,face,0.8978,4/5/2026, 10:03:38 am
+259,"Aarush Sharma",CSE2023016,"student16@local.com","Computer Science & Engineering","Computer Networks",CSE401,4/5/2026,PRESENT,face,0.7772,4/5/2026, 10:02:19 am
+260,"Dhruv Sharma",CSE2023020,"student20@local.com","Computer Science & Engineering","Computer Networks",CSE401,4/5/2026,PRESENT,face,0.7795,4/5/2026, 10:03:51 am
+261,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,30/4/2026,ABSENT,manual,N/A,30/4/2026, 10:04:13 am
+262,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,30/4/2026,PRESENT,face,0.8285,30/4/2026, 10:00:34 am
+263,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,30/4/2026,PRESENT,face,0.7919,30/4/2026, 10:02:01 am
+264,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,30/4/2026,ABSENT,manual,N/A,30/4/2026, 10:01:20 am
+265,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,30/4/2026,LATE,face,0.9725,30/4/2026, 10:22:44 am
+266,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,29/4/2026,PRESENT,face,0.8470,29/4/2026, 2:03:03 pm
+267,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,29/4/2026,PRESENT,face,0.8407,29/4/2026, 2:04:15 pm
+268,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,29/4/2026,PRESENT,face,0.7847,29/4/2026, 2:04:44 pm
+269,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,29/4/2026,PRESENT,face,0.7888,29/4/2026, 2:02:25 pm
+270,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,29/4/2026,PRESENT,face,0.9170,29/4/2026, 2:01:33 pm
+271,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/4/2026,PRESENT,face,0.8744,28/4/2026, 12:04:18 pm
+272,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/4/2026,PRESENT,face,0.9776,28/4/2026, 12:03:42 pm
+273,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/4/2026,PRESENT,face,0.9491,28/4/2026, 12:00:03 pm
+274,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/4/2026,PRESENT,face,0.9413,28/4/2026, 12:04:08 pm
+275,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/4/2026,PRESENT,face,0.8824,28/4/2026, 12:01:43 pm
+276,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/4/2026,PRESENT,face,0.7797,28/4/2026, 12:00:38 pm
+277,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/4/2026,PRESENT,face,0.8033,28/4/2026, 12:04:29 pm
+278,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/4/2026,PRESENT,face,0.8486,28/4/2026, 12:04:32 pm
+279,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/4/2026,ABSENT,manual,N/A,28/4/2026, 12:01:39 pm
+280,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Operating Systems",CSE302,28/4/2026,PRESENT,face,0.9379,28/4/2026, 12:04:27 pm
+281,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/4/2026,PRESENT,face,0.8461,27/4/2026, 1:00:46 pm
+282,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/4/2026,ABSENT,manual,N/A,27/4/2026, 1:03:34 pm
+283,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/4/2026,LATE,face,0.8161,27/4/2026, 1:22:28 pm
+284,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/4/2026,LATE,face,0.9184,27/4/2026, 1:21:46 pm
+285,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/4/2026,PRESENT,face,0.8911,27/4/2026, 1:03:17 pm
+286,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,23/4/2026,PRESENT,face,0.8037,23/4/2026, 9:01:10 am
+287,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,23/4/2026,PRESENT,face,0.9743,23/4/2026, 9:00:31 am
+288,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,23/4/2026,PRESENT,face,0.9256,23/4/2026, 9:04:23 am
+289,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,23/4/2026,PRESENT,face,0.9490,23/4/2026, 9:00:25 am
+290,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,23/4/2026,PRESENT,face,0.8798,23/4/2026, 9:00:15 am
+291,"Aarush Sharma",CSE2023016,"student16@local.com","Computer Science & Engineering","Computer Networks",CSE401,21/4/2026,PRESENT,face,0.8164,21/4/2026, 1:00:24 pm
+292,"Vihaan Sharma",CSE2023004,"student4@local.com","Computer Science & Engineering","Computer Networks",CSE401,21/4/2026,PRESENT,face,0.8130,21/4/2026, 1:03:20 pm
+293,"Ayaan Sharma",CSE2023008,"student8@local.com","Computer Science & Engineering","Computer Networks",CSE401,21/4/2026,PRESENT,face,0.9818,21/4/2026, 1:03:57 pm
+294,"Atharv Sharma",CSE2023012,"student12@local.com","Computer Science & Engineering","Computer Networks",CSE401,21/4/2026,LATE,face,0.9080,21/4/2026, 1:19:29 pm
+295,"Dhruv Sharma",CSE2023020,"student20@local.com","Computer Science & Engineering","Computer Networks",CSE401,21/4/2026,ABSENT,manual,N/A,21/4/2026, 1:03:48 pm
+296,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,20/4/2026,PRESENT,face,0.9333,20/4/2026, 12:01:41 pm
+297,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,20/4/2026,PRESENT,face,0.7664,20/4/2026, 12:04:54 pm
+298,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,20/4/2026,PRESENT,face,0.9451,20/4/2026, 12:03:54 pm
+299,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,20/4/2026,PRESENT,face,0.9611,20/4/2026, 12:04:11 pm
+300,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,20/4/2026,PRESENT,face,0.8201,20/4/2026, 12:00:31 pm
+301,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,20/4/2026,PRESENT,face,0.9705,20/4/2026, 12:03:21 pm
+302,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,20/4/2026,LATE,face,0.8164,20/4/2026, 12:20:22 pm
+303,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,20/4/2026,PRESENT,face,0.8573,20/4/2026, 12:02:04 pm
+304,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,20/4/2026,PRESENT,face,0.7948,20/4/2026, 12:04:25 pm
+305,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,20/4/2026,PRESENT,face,0.9809,20/4/2026, 12:01:56 pm
+306,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,17/4/2026,LATE,face,0.8457,17/4/2026, 12:20:16 pm
+307,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,17/4/2026,PRESENT,face,0.8757,17/4/2026, 12:00:08 pm
+308,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,17/4/2026,PRESENT,face,0.9541,17/4/2026, 12:02:24 pm
+309,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,17/4/2026,LATE,face,0.8734,17/4/2026, 12:19:55 pm
+310,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,17/4/2026,ABSENT,manual,N/A,17/4/2026, 12:01:14 pm
+311,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,16/4/2026,PRESENT,face,0.8723,16/4/2026, 1:04:53 pm
+312,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,16/4/2026,PRESENT,face,0.7643,16/4/2026, 1:02:52 pm
+313,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,16/4/2026,PRESENT,face,0.7759,16/4/2026, 1:01:34 pm
+314,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,16/4/2026,PRESENT,face,0.9335,16/4/2026, 1:01:51 pm
+315,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,16/4/2026,PRESENT,face,0.7859,16/4/2026, 1:04:46 pm
+316,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,16/4/2026,PRESENT,face,0.7614,16/4/2026, 1:04:28 pm
+317,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,16/4/2026,ABSENT,manual,N/A,16/4/2026, 1:04:53 pm
+318,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,16/4/2026,PRESENT,face,0.9230,16/4/2026, 1:02:16 pm
+319,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,16/4/2026,PRESENT,face,0.9492,16/4/2026, 1:03:07 pm
+320,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,16/4/2026,PRESENT,face,0.9301,16/4/2026, 1:01:12 pm
+321,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,14/4/2026,PRESENT,face,0.8717,14/4/2026, 9:00:16 am
+322,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/4/2026,PRESENT,face,0.8620,14/4/2026, 10:01:21 am
+323,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,14/4/2026,PRESENT,face,0.7609,14/4/2026, 9:00:35 am
+324,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/4/2026,LATE,face,0.9402,14/4/2026, 10:23:16 am
+325,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,14/4/2026,ABSENT,manual,N/A,14/4/2026, 9:00:21 am
+326,"Dhruv Sharma",CSE2023020,"student20@local.com","Computer Science & Engineering","Computer Networks",CSE401,14/4/2026,PRESENT,face,0.7611,14/4/2026, 12:00:56 pm
+327,"Vihaan Sharma",CSE2023004,"student4@local.com","Computer Science & Engineering","Computer Networks",CSE401,14/4/2026,ABSENT,manual,N/A,14/4/2026, 12:01:03 pm
+328,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/4/2026,PRESENT,face,0.7988,14/4/2026, 10:02:40 am
+329,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/4/2026,PRESENT,face,0.9452,14/4/2026, 10:01:04 am
+330,"Atharv Sharma",CSE2023012,"student12@local.com","Computer Science & Engineering","Computer Networks",CSE401,14/4/2026,PRESENT,face,0.9441,14/4/2026, 12:00:20 pm
+331,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/4/2026,ABSENT,manual,N/A,14/4/2026, 10:01:02 am
+332,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/4/2026,PRESENT,face,0.8127,14/4/2026, 10:01:38 am
+333,"Ayaan Sharma",CSE2023008,"student8@local.com","Computer Science & Engineering","Computer Networks",CSE401,14/4/2026,PRESENT,face,0.8374,14/4/2026, 12:01:52 pm
+334,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/4/2026,PRESENT,face,0.8019,14/4/2026, 10:02:45 am
+335,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/4/2026,ABSENT,manual,N/A,14/4/2026, 10:03:04 am
+336,"Aarush Sharma",CSE2023016,"student16@local.com","Computer Science & Engineering","Computer Networks",CSE401,14/4/2026,PRESENT,face,0.7521,14/4/2026, 12:00:13 pm
+337,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/4/2026,PRESENT,face,0.8920,14/4/2026, 10:02:35 am
+338,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,14/4/2026,ABSENT,manual,N/A,14/4/2026, 10:02:17 am
+339,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,14/4/2026,LATE,face,0.7724,14/4/2026, 9:20:09 am
+340,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,14/4/2026,LATE,face,0.7696,14/4/2026, 9:22:27 am
+341,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,9/4/2026,PRESENT,face,0.9099,9/4/2026, 12:04:52 pm
+342,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,9/4/2026,PRESENT,face,0.9838,9/4/2026, 12:00:28 pm
+343,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,9/4/2026,PRESENT,face,0.9730,9/4/2026, 12:02:24 pm
+344,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,9/4/2026,PRESENT,face,0.9031,9/4/2026, 12:00:48 pm
+345,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,9/4/2026,PRESENT,face,0.8892,9/4/2026, 12:04:00 pm
+346,"Atharv Sharma",CSE2023012,"student12@local.com","Computer Science & Engineering","Computer Networks",CSE401,7/4/2026,PRESENT,face,0.9890,7/4/2026, 12:03:41 pm
+347,"Ayaan Sharma",CSE2023008,"student8@local.com","Computer Science & Engineering","Computer Networks",CSE401,7/4/2026,PRESENT,face,0.8513,7/4/2026, 12:00:32 pm
+348,"Dhruv Sharma",CSE2023020,"student20@local.com","Computer Science & Engineering","Computer Networks",CSE401,7/4/2026,PRESENT,face,0.8684,7/4/2026, 12:02:48 pm
+349,"Aarush Sharma",CSE2023016,"student16@local.com","Computer Science & Engineering","Computer Networks",CSE401,7/4/2026,PRESENT,face,0.7773,7/4/2026, 12:04:14 pm
+350,"Vihaan Sharma",CSE2023004,"student4@local.com","Computer Science & Engineering","Computer Networks",CSE401,7/4/2026,PRESENT,face,0.8894,7/4/2026, 12:04:35 pm
+351,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,6/4/2026,ABSENT,manual,N/A,6/4/2026, 12:04:58 pm
+352,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,6/4/2026,PRESENT,face,0.8991,6/4/2026, 12:02:33 pm
+353,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,6/4/2026,PRESENT,face,0.7680,6/4/2026, 12:00:57 pm
+354,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,6/4/2026,LATE,face,0.9578,6/4/2026, 12:20:43 pm
+355,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,6/4/2026,PRESENT,face,0.9186,6/4/2026, 12:02:39 pm
+356,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/4/2026,PRESENT,face,0.8419,3/4/2026, 9:01:18 am
+357,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/4/2026,PRESENT,face,0.9284,3/4/2026, 9:01:40 am
+358,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/4/2026,PRESENT,face,0.8776,3/4/2026, 9:01:46 am
+359,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/4/2026,PRESENT,face,0.9631,3/4/2026, 9:04:34 am
+360,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/4/2026,PRESENT,face,0.9401,3/4/2026, 9:04:23 am
+361,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/4/2026,PRESENT,face,0.9790,3/4/2026, 9:03:49 am
+362,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/4/2026,PRESENT,face,0.9482,3/4/2026, 9:04:18 am
+363,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/4/2026,PRESENT,face,0.9067,3/4/2026, 9:01:01 am
+364,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/4/2026,PRESENT,face,0.9693,3/4/2026, 9:01:35 am
+365,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,3/4/2026,PRESENT,face,0.8386,3/4/2026, 9:05:00 am
+366,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/4/2026,PRESENT,face,0.9735,1/4/2026, 12:04:37 pm
+367,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/4/2026,PRESENT,face,0.8246,1/4/2026, 12:01:50 pm
+368,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/4/2026,PRESENT,face,0.9210,1/4/2026, 12:00:29 pm
+369,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/4/2026,LATE,face,0.9153,1/4/2026, 12:19:09 pm
+370,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/4/2026,PRESENT,face,0.8334,1/4/2026, 12:00:50 pm
+371,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/4/2026,PRESENT,face,0.7937,1/4/2026, 12:01:00 pm
+372,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/4/2026,LATE,face,0.9626,1/4/2026, 12:20:20 pm
+373,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/4/2026,PRESENT,face,0.8090,1/4/2026, 12:00:10 pm
+374,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/4/2026,PRESENT,face,0.8089,1/4/2026, 12:04:42 pm
+375,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,1/4/2026,PRESENT,face,0.7596,1/4/2026, 12:00:23 pm
+376,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Operating Systems",CSE302,31/3/2026,PRESENT,face,0.8592,31/3/2026, 10:03:00 am
+377,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Operating Systems",CSE302,31/3/2026,PRESENT,face,0.8750,31/3/2026, 10:00:05 am
+378,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Operating Systems",CSE302,31/3/2026,PRESENT,face,0.9309,31/3/2026, 10:04:00 am
+379,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Operating Systems",CSE302,31/3/2026,PRESENT,face,0.9344,31/3/2026, 10:04:14 am
+380,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Operating Systems",CSE302,31/3/2026,PRESENT,face,0.8378,31/3/2026, 10:02:02 am
+381,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Operating Systems",CSE302,31/3/2026,PRESENT,face,0.9671,31/3/2026, 10:04:06 am
+382,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Operating Systems",CSE302,31/3/2026,PRESENT,face,0.9246,31/3/2026, 10:02:20 am
+383,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Operating Systems",CSE302,31/3/2026,PRESENT,face,0.9691,31/3/2026, 10:03:11 am
+384,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Operating Systems",CSE302,31/3/2026,PRESENT,face,0.8080,31/3/2026, 10:02:50 am
+385,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Operating Systems",CSE302,31/3/2026,PRESENT,face,0.9584,31/3/2026, 10:03:31 am
+386,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,30/3/2026,ABSENT,manual,N/A,30/3/2026, 10:03:43 am
+387,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,30/3/2026,PRESENT,face,0.9667,30/3/2026, 10:04:48 am
+388,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,30/3/2026,PRESENT,face,0.8937,30/3/2026, 10:00:44 am
+389,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,30/3/2026,PRESENT,face,0.7578,30/3/2026, 10:00:19 am
+390,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,30/3/2026,PRESENT,face,0.8468,30/3/2026, 10:01:56 am
+391,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,30/3/2026,PRESENT,face,0.9873,30/3/2026, 10:04:46 am
+392,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,30/3/2026,ABSENT,manual,N/A,30/3/2026, 10:03:52 am
+393,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,30/3/2026,PRESENT,face,0.9042,30/3/2026, 10:03:20 am
+394,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,30/3/2026,ABSENT,manual,N/A,30/3/2026, 10:02:35 am
+395,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,30/3/2026,LATE,face,0.9054,30/3/2026, 10:18:21 am
+396,"Kabir Sharma",CSE2023017,"student17@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/3/2026,PRESENT,face,0.8774,27/3/2026, 12:01:29 pm
+397,"Krishna Sharma",CSE2023009,"student9@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/3/2026,PRESENT,face,0.7804,27/3/2026, 12:03:17 pm
+398,"Advik Sharma",CSE2023013,"student13@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/3/2026,PRESENT,face,0.8424,27/3/2026, 12:00:03 pm
+399,"Arjun Sharma",CSE2023005,"student5@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/3/2026,PRESENT,face,0.9630,27/3/2026, 12:00:38 pm
+400,"Aarav Sharma",CSE2023001,"student@local.com","Computer Science & Engineering","Data Structures & Algorithms",CSE201,27/3/2026,ABSENT,manual,N/A,27/3/2026, 12:04:34 pm
+401,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,26/3/2026,PRESENT,face,0.7902,26/3/2026, 9:02:33 am
+402,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,26/3/2026,LATE,face,0.8273,26/3/2026, 9:20:09 am
+403,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,26/3/2026,PRESENT,face,0.9687,26/3/2026, 9:04:56 am
+404,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,26/3/2026,PRESENT,face,0.9092,26/3/2026, 9:01:52 am
+405,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,26/3/2026,PRESENT,face,0.7625,26/3/2026, 9:02:47 am
+406,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,26/3/2026,PRESENT,face,0.9327,26/3/2026, 9:04:47 am
+407,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,26/3/2026,PRESENT,face,0.9678,26/3/2026, 9:00:18 am
+408,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,26/3/2026,PRESENT,face,0.8735,26/3/2026, 9:00:07 am
+409,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,26/3/2026,ABSENT,manual,N/A,26/3/2026, 9:01:21 am
+410,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,26/3/2026,PRESENT,face,0.8694,26/3/2026, 9:03:32 am
+411,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,24/3/2026,PRESENT,face,0.8472,24/3/2026, 11:00:10 am
+412,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,24/3/2026,LATE,face,0.8006,24/3/2026, 11:24:14 am
+413,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,24/3/2026,PRESENT,face,0.7827,24/3/2026, 11:03:11 am
+414,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,24/3/2026,PRESENT,face,0.8248,24/3/2026, 11:03:16 am
+415,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,24/3/2026,PRESENT,face,0.8974,24/3/2026, 11:03:28 am
+416,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,24/3/2026,ABSENT,manual,N/A,24/3/2026, 11:00:36 am
+417,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,24/3/2026,PRESENT,face,0.7881,24/3/2026, 11:00:54 am
+418,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,24/3/2026,PRESENT,face,0.8970,24/3/2026, 11:02:23 am
+419,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,24/3/2026,ABSENT,manual,N/A,24/3/2026, 11:00:32 am
+420,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,24/3/2026,PRESENT,face,0.7973,24/3/2026, 11:01:05 am
+421,"Sai Sharma",CSE2023006,"student6@local.com","Computer Science & Engineering","Database Management Systems",CSE301,23/3/2026,PRESENT,face,0.7843,23/3/2026, 9:02:54 am
+422,"Ritvik Sharma",CSE2023018,"student18@local.com","Computer Science & Engineering","Database Management Systems",CSE301,23/3/2026,LATE,face,0.9161,23/3/2026, 9:19:04 am
+423,"Vihaan Sharma",CSE2023004,"student4@local.com","Computer Science & Engineering","Computer Networks",CSE401,23/3/2026,PRESENT,face,0.8745,23/3/2026, 9:00:47 am
+424,"Reyansh Sharma",CSE2023007,"student7@local.com","Computer Science & Engineering","Database Management Systems",CSE301,23/3/2026,PRESENT,face,0.7818,23/3/2026, 9:03:32 am
+425,"Advaith Sharma",CSE2023015,"student15@local.com","Computer Science & Engineering","Database Management Systems",CSE301,23/3/2026,ABSENT,manual,N/A,23/3/2026, 9:03:50 am
+426,"Atharv Sharma",CSE2023012,"student12@local.com","Computer Science & Engineering","Computer Networks",CSE401,23/3/2026,PRESENT,face,0.8395,23/3/2026, 9:03:54 am
+427,"Shaurya Sharma",CSE2023011,"student11@local.com","Computer Science & Engineering","Database Management Systems",CSE301,23/3/2026,LATE,face,0.8957,23/3/2026, 9:19:07 am
+428,"Dhruv Sharma",CSE2023020,"student20@local.com","Computer Science & Engineering","Computer Networks",CSE401,23/3/2026,LATE,face,0.8425,23/3/2026, 9:23:48 am
+429,"Pranav Sharma",CSE2023014,"student14@local.com","Computer Science & Engineering","Database Management Systems",CSE301,23/3/2026,PRESENT,face,0.9897,23/3/2026, 9:03:08 am
+430,"Ayaan Sharma",CSE2023008,"student8@local.com","Computer Science & Engineering","Computer Networks",CSE401,23/3/2026,PRESENT,face,0.8012,23/3/2026, 9:03:39 am
+431,"Ishaan Sharma",CSE2023010,"student10@local.com","Computer Science & Engineering","Database Management Systems",CSE301,23/3/2026,PRESENT,face,0.8138,23/3/2026, 9:00:34 am
+432,"Aarush Sharma",CSE2023016,"student16@local.com","Computer Science & Engineering","Computer Networks",CSE401,23/3/2026,PRESENT,face,0.8679,23/3/2026, 9:01:07 am
+433,"Anirudh Sharma",CSE2023019,"student19@local.com","Computer Science & Engineering","Database Management Systems",CSE301,23/3/2026,PRESENT,face,0.9546,23/3/2026, 9:03:49 am
+434,"Vivaan Sharma",CSE2023002,"student2@local.com","Computer Science & Engineering","Database Management Systems",CSE301,23/3/2026,ABSENT,manual,N/A,23/3/2026, 9:00:28 am
+435,"Aditya Sharma",CSE2023003,"student3@local.com","Computer Science & Engineering","Database Management Systems",CSE301,23/3/2026,PRESENT,face,0.9008,23/3/2026, 9:02:12 am
