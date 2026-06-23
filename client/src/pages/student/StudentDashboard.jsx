@@ -37,7 +37,7 @@ export default function StudentDashboard() {
   return (
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold">Welcome, {user?.name?.split(' ')[0] || 'Student'}!</h1>
+        <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Welcome, {user?.name?.split(' ')[0] || 'Student'}!</h1>
         <p className="text-gray-500 text-sm mt-1">Here's your attendance summary</p>
       </div>
 
@@ -122,7 +122,7 @@ export default function StudentDashboard() {
           ]).map((r, i) => {
             const colors = getStatusColors(r.status);
             return (
-              <div key={i} className="flex items-center justify-between p-3 rounded-xl hover:bg-white/[0.02] transition-colors">
+              <div key={i} className="flex items-center justify-between p-3 rounded-xl hover:bg-gray-50 dark:hover:bg-white/[0.02] transition-colors">
                 <div className="flex items-center gap-3">
                   <div className={`w-2 h-2 rounded-full ${colors.dot}`} />
                   <div>

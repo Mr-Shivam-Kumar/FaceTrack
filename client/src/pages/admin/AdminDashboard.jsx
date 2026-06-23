@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Navigate } from 'react-router-dom';
+import { useAuth } from '../../contexts/AuthContext';
 import { motion } from 'framer-motion';
 import api from '../../services/api';
 import StatCard from '../../components/ui/StatCard';
@@ -24,6 +26,7 @@ const item = {
 };
 
 export default function AdminDashboard() {
+  const { user, loading: authLoading } = useAuth();
   const [stats, setStats] = useState(null);
   const [dailyTrend, setDailyTrend] = useState([]);
   const [monthlyTrend, setMonthlyTrend] = useState([]);
@@ -127,7 +130,7 @@ export default function AdminDashboard() {
     { title: 'Active Sessions', value: stats?.activeSessions || 0, icon: HiOutlineBolt, color: 'green', change: 'Live', changeType: 'positive' },
   ];
 
-  if (loading) {
+  if (loading || authLoading) {
     return (
       <div className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -142,13 +145,33 @@ export default function AdminDashboard() {
     );
   }
 
+  if (!user) {
+    return <Navigate to="/login" replace />;
+  }
+
+  const isHOD = user?.role === 'faculty' && user?.profile?.isHOD;
+  const isAdmin = user?.role === 'admin';
+
+  if (!isAdmin && !isHOD) {
+    const roleRedirects = { faculty: '/faculty', student: '/student' };
+    return <Navigate to={roleRedirects[user?.role] || '/login'} replace />;
+  }
+
+  const deptCode = user?.profile?.department?.code || 'Department';
+  const deptName = user?.profile?.department?.name || 'your';
+
+  const dashboardTitle = isHOD ? `${deptCode} Department Dashboard` : 'Admin Dashboard';
+  const dashboardDescription = isHOD 
+    ? `Welcome, HOD! Here is the attendance overview for the ${deptName} department.` 
+    : "Welcome back! Here's your attendance overview.";
+
   return (
     <motion.div variants={container} initial="hidden" animate="show" className="space-y-6">
       {/* Page Header */}
       <motion.div variants={item} className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Dashboard</h1>
-          <p className="text-gray-500 text-sm mt-1">Welcome back! Here's your attendance overview.</p>
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white">{dashboardTitle}</h1>
+          <p className="text-gray-500 text-sm mt-1">{dashboardDescription}</p>
         </div>
         <div className="flex items-center gap-2 text-xs text-gray-500">
           <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />

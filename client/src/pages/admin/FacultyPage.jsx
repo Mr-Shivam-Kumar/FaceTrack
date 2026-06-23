@@ -96,8 +96,8 @@ export default function FacultyPage() {
       </div>
     )},
     { key: 'department', label: 'Department', render: (r) => r.department?.code || 'N/A' },
-    { key: 'designation', label: 'Designation', render: (r) => <span className="text-xs text-gray-400">{r.designation || 'N/A'}</span> },
-    { key: 'subjects', label: 'Subjects', render: (r) => <span className="text-xs text-gray-400">{r.subjects?.length || 0} assigned</span> },
+    { key: 'designation', label: 'Designation', render: (r) => <span className="text-xs text-gray-600 dark:text-gray-400">{r.designation || 'N/A'}</span> },
+    { key: 'subjects', label: 'Subjects', render: (r) => <span className="text-xs text-gray-600 dark:text-gray-400">{r.subjects?.length || 0} assigned</span> },
     { key: 'actions', label: 'Actions', render: (r) => (
       <div className="flex gap-1">
         <button onClick={() => handleEdit(r)} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/[0.06] text-gray-400 hover:text-primary-400"><HiOutlinePencil /></button>
@@ -110,7 +110,7 @@ export default function FacultyPage() {
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold">Faculty</h1>
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Faculty</h1>
           <p className="text-gray-500 text-sm mt-1">Manage faculty members and their subject assignments</p>
         </div>
         <Button onClick={() => { setEditing(null); resetForm(); setShowModal(true); }}>

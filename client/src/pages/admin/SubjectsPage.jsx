@@ -88,7 +88,7 @@ export default function SubjectsPage() {
   return (
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
       <div className="flex items-center justify-between">
-        <div><h1 className="text-2xl font-bold">Subjects</h1><p className="text-gray-500 text-sm mt-1">Manage subjects and course offerings</p></div>
+        <div><h1 className="text-2xl font-bold text-gray-900 dark:text-white">Subjects</h1><p className="text-gray-500 text-sm mt-1">Manage subjects and course offerings</p></div>
         <Button onClick={() => { setEditing(null); resetForm(); setShowModal(true); }}><HiOutlinePlus className="mr-2 text-lg" /> Add Subject</Button>
       </div>
       <div className="flex gap-3">

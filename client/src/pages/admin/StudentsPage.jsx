@@ -136,7 +136,7 @@ export default function StudentsPage() {
       </div>
     )},
     { key: 'department', label: 'Department', render: (row) => row.department?.code || 'N/A' },
-    { key: 'semester', label: 'Semester', render: (row) => <span className="text-gray-300">Sem {row.semester}</span> },
+    { key: 'semester', label: 'Semester', render: (row) => <span className="text-gray-700 dark:text-gray-300">Sem {row.semester}</span> },
     { key: 'section', label: 'Section' },
     { key: 'faceRegistered', label: 'Face', render: (row) => (
       <Badge color={row.faceRegistered ? 'success' : 'danger'} variant="dot">
@@ -156,7 +156,7 @@ export default function StudentsPage() {
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold">Students</h1>
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Students</h1>
           <p className="text-gray-500 text-sm mt-1">Manage student records and face registrations</p>
         </div>
         <Button onClick={() => { setEditingStudent(null); resetForm(); setShowModal(true); }}>

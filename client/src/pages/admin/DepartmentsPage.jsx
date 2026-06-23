@@ -43,7 +43,7 @@ export default function DepartmentsPage() {
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold">Departments</h1>
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Departments</h1>
           <p className="text-gray-500 text-sm mt-1">Manage departments and organizational structure</p>
         </div>
         <Button onClick={() => { setEditing(null); setForm({ name: '', code: '', hodName: '' }); setShowModal(true); }}>
@@ -61,7 +61,7 @@ export default function DepartmentsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {departments.map((dept, i) => (
             <motion.div key={dept._id} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.1 }}
-              className="glass-card p-6 hover:border-white/10 transition-all group">
+              className="glass-card p-6 hover:border-gray-200 dark:hover:border-white/10 transition-all group">
               <div className="flex items-start justify-between mb-4">
                 <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${colors[i % colors.length]} flex items-center justify-center shadow-lg`}>
                   <HiOutlineBuildingOffice2 className="text-white text-xl" />
@@ -74,7 +74,7 @@ export default function DepartmentsPage() {
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">{dept.name}</h3>
               <p className="text-sm text-gray-500 mb-4">Code: {dept.code}</p>
               {dept.hodName && <p className="text-xs text-gray-500">HOD: {dept.hodName}</p>}
-              <div className="flex items-center gap-4 mt-4 pt-4 border-t border-white/[0.06]">
+              <div className="flex items-center gap-4 mt-4 pt-4 border-t border-gray-200 dark:border-white/[0.06]">
                 <div className="flex items-center gap-1.5 text-xs text-gray-500"><HiOutlineUserGroup />{dept.studentCount || 0} Students</div>
                 <div className="flex items-center gap-1.5 text-xs text-gray-500"><HiOutlineAcademicCap />{dept.facultyCount || 0} Faculty</div>
               </div>
