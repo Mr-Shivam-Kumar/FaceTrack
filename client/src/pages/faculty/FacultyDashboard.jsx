@@ -42,7 +42,7 @@ export default function FacultyDashboard() {
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold">Welcome, {user?.name?.split(' ')[0] || 'Faculty'}!</h1>
+          <h1 className="text-2xl font-bold">Welcome, {user?.name || 'Faculty'}!</h1>
           <p className="text-gray-500 text-sm mt-1">Here's your teaching overview for today</p>
         </div>
         <Link to="/faculty/take-attendance">

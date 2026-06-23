@@ -199,7 +199,11 @@ export default function Header() {
               </div>
               <div className="text-left hidden md:block">
                 <p className="text-sm font-medium text-gray-800 dark:text-gray-200">{user?.name}</p>
-                <p className="text-[11px] text-gray-500 capitalize">{user?.role}</p>
+                <p className="text-[11px] text-gray-500">
+                  {user?.role === 'faculty' && user?.profile?.isHOD 
+                    ? 'Faculty | HOD' 
+                    : (user?.role ? user.role.charAt(0).toUpperCase() + user.role.slice(1) : '')}
+                </p>
               </div>
             </button>
 
