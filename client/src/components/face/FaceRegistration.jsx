@@ -267,7 +267,7 @@ export default function FaceRegistration({ studentId, studentName, onSuccess, on
             <div>
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Register Face for {studentName}</h3>
               <p className="text-sm text-gray-400">
-                To enable local face recognition, please choose one of the options below to capture the student's face credentials.
+                To enable Real-Time face recognition, please choose one of the options below to capture the student's face credentials.
               </p>
             </div>
 
@@ -482,7 +482,7 @@ export default function FaceRegistration({ studentId, studentName, onSuccess, on
             <div>
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Registration Complete!</h3>
               <p className="text-sm text-gray-400">
-                Face credentials for {studentName} have been securely registered and stored locally.
+                Face credentials for {studentName} have been securely registered and secured via Cloud Sync.
               </p>
             </div>
             <div className="flex justify-center">

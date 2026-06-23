@@ -19,9 +19,10 @@ const EmptyState = ({
 }) => {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
-      className="flex flex-col items-center justify-center py-16 px-4 text-center"
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+      className="flex flex-col items-center justify-center py-16 px-4 text-center transform-gpu will-change-transform"
     >
       <div className="flex items-center justify-center w-20 h-20 rounded-2xl bg-gray-100 dark:bg-dark-100 mb-6">
         {icon || <FiInbox className="w-10 h-10 text-gray-400 dark:text-gray-500" />}
@@ -30,9 +31,11 @@ const EmptyState = ({
       <p className="text-sm text-gray-500 dark:text-gray-400 max-w-md mb-6">{description}</p>
       {actionLabel && onAction && (
         <motion.button
-          whileTap={{ scale: 0.97 }}
+          whileHover={{ scale: 1.015, y: -0.5 }}
+          whileTap={{ scale: 0.95 }}
+          transition={{ type: 'spring', stiffness: 500, damping: 22 }}
           onClick={onAction}
-          className="px-5 py-2.5 text-sm font-semibold rounded-xl bg-gradient-to-r from-primary-500 to-primary-600 text-white shadow-lg shadow-primary-500/25 hover:shadow-primary-500/40 transition-shadow"
+          className="px-5 py-2.5 text-sm font-semibold rounded-xl bg-gradient-to-r from-primary-500 to-primary-600 text-white shadow-lg shadow-primary-500/25 hover:shadow-primary-500/40 transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] duration-200 transform-gpu will-change-transform"
         >
           {actionLabel}
         </motion.button>

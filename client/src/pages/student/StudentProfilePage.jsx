@@ -28,7 +28,12 @@ export default function StudentProfilePage() {
   if (loading) return <div className="flex justify-center py-20"><div className="w-8 h-8 border-4 border-primary-500/30 border-t-primary-500 rounded-full animate-spin" /></div>;
 
   return (
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-4xl mx-auto space-y-6">
+    <motion.div
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+      className="max-w-4xl mx-auto space-y-6 transform-gpu will-change-transform"
+    >
       {/* Profile Header */}
       <div className="glass-card p-8">
         <div className="flex flex-col md:flex-row items-center gap-6">

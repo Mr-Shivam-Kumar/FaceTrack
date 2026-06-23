@@ -106,17 +106,19 @@ const StatCard = ({
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4, delay: index * 0.05 }}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: index * 0.04 }}
+      whileHover={{ scale: 1.02, y: -4 }}
       className={`
         relative overflow-hidden rounded-2xl p-6
         bg-white/80 dark:bg-dark-50/80
         backdrop-blur-xl
         border border-gray-200/50 dark:border-white/5
         shadow-lg ${colors.glow}
-        hover:shadow-xl hover:scale-[1.02]
-        transition-all duration-300
+        hover:shadow-xl hover:border-primary-500/20 dark:hover:border-white/10
+        transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] duration-300
+        transform-gpu will-change-transform
         group
       `}
     >

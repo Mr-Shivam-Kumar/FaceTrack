@@ -18,11 +18,24 @@ import {
 
 const container = {
   hidden: { opacity: 0 },
-  show: { opacity: 1, transition: { staggerChildren: 0.08 } }
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.05,
+      delayChildren: 0.02
+    }
+  }
 };
 const item = {
-  hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.4 } }
+  hidden: { opacity: 0, y: 16 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: [0.16, 1, 0.3, 1]
+    }
+  }
 };
 
 export default function AdminDashboard() {
@@ -232,10 +245,11 @@ export default function AdminDashboard() {
               return (
                 <motion.div
                   key={i}
-                  initial={{ opacity: 0, x: 10 }}
+                  initial={{ opacity: 0, x: 16 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.5 + i * 0.1 }}
-                  className={`flex items-start gap-3 p-3 rounded-xl border ${colors[insight.type] || colors.info}`}
+                  whileHover={{ x: 4, scale: 1.01 }}
+                  transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1], delay: 0.3 + i * 0.06 }}
+                  className={`flex items-start gap-3 p-3 rounded-xl border cursor-pointer transform-gpu will-change-transform ${colors[insight.type] || colors.info}`}
                 >
                   <Icon className="text-lg flex-shrink-0 mt-0.5" />
                   <p className="text-xs leading-relaxed">{insight.message}</p>

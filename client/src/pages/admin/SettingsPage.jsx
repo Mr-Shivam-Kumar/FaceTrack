@@ -21,7 +21,12 @@ export default function SettingsPage() {
   };
 
   return (
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
+    <motion.div
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+      className="space-y-6 transform-gpu will-change-transform"
+    >
       <div><h1 className="text-2xl font-bold">Settings</h1><p className="text-gray-500 text-sm mt-1">Configure system preferences</p></div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">

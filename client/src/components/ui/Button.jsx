@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { FiLoader } from 'react-icons/fi';
 
 /**
@@ -51,28 +51,51 @@ const Button = ({
 
   return (
     <motion.button
-      whileTap={!isDisabled ? { scale: 0.97 } : {}}
-      whileHover={!isDisabled ? { scale: 1.02 } : {}}
+      whileTap={!isDisabled ? { scale: 0.95 } : {}}
+      whileHover={!isDisabled ? { scale: 1.015, y: -0.5 } : {}}
+      transition={{ type: 'spring', stiffness: 500, damping: 22 }}
       type={type}
       onClick={onClick}
       disabled={isDisabled}
       className={`
         inline-flex items-center justify-center font-semibold
-        transition-all duration-200
+        transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] duration-200
         focus:outline-none focus:ring-2 focus:ring-primary-500/50 focus:ring-offset-2 focus:ring-offset-transparent
         ${variants[variant] || variants.primary}
         ${sizes[size] || sizes.md}
         ${fullWidth ? 'w-full' : ''}
         ${isDisabled ? 'opacity-50 cursor-not-allowed saturate-50' : 'cursor-pointer'}
+        transform-gpu will-change-transform
         ${className}
       `}
       {...rest}
     >
-      {loading ? (
-        <FiLoader className="w-4 h-4 animate-spin" />
-      ) : (
-        iconLeft && <span className="flex-shrink-0">{iconLeft}</span>
-      )}
+      <AnimatePresence mode="wait">
+        {loading ? (
+          <motion.span
+            key="loader"
+            initial={{ opacity: 0, scale: 0.6 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.6 }}
+            transition={{ duration: 0.15 }}
+            className="flex-shrink-0"
+          >
+            <FiLoader className="w-4 h-4 animate-spin text-current" />
+          </motion.span>
+        ) : (
+          iconLeft && (
+            <motion.span
+              key="icon-left"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.15 }}
+              className="flex-shrink-0"
+            >
+              {iconLeft}
+            </motion.span>
+          )
+        )}
+      </AnimatePresence>
       {children && <span>{children}</span>}
       {!loading && iconRight && <span className="flex-shrink-0">{iconRight}</span>}
     </motion.button>

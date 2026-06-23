@@ -39,15 +39,24 @@ export default function FacultyDashboard() {
   ];
 
   return (
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
+    <motion.div
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+      className="space-y-6 transform-gpu will-change-transform"
+    >
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Welcome, {user?.name || 'Faculty'}!</h1>
           <p className="text-gray-500 text-sm mt-1">Here's your teaching overview for today</p>
         </div>
         <Link to="/faculty/take-attendance">
-          <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
-            className="gradient-btn px-6 py-3 flex items-center gap-2 text-sm font-medium">
+          <motion.button
+            whileHover={{ scale: 1.015, y: -0.5 }}
+            whileTap={{ scale: 0.95 }}
+            transition={{ type: 'spring', stiffness: 500, damping: 22 }}
+            className="gradient-btn px-6 py-3 flex items-center gap-2 text-sm font-medium transform-gpu will-change-transform"
+          >
             <HiOutlineCamera className="text-lg" />
             Start Attendance
           </motion.button>

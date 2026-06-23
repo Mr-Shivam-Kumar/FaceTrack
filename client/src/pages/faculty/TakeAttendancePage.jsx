@@ -704,7 +704,12 @@ export default function TakeAttendancePage() {
 
   // Step 1: Selection
   return (
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-2xl mx-auto space-y-6">
+    <motion.div
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+      className="max-w-2xl mx-auto space-y-6 transform-gpu will-change-transform"
+    >
       <div className="text-center mb-8">
         <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-primary-500 to-purple-600 flex items-center justify-center mx-auto mb-4 shadow-2xl shadow-primary-500/20">
           <HiOutlineCamera className="text-white text-4xl" />
@@ -781,25 +786,38 @@ export default function TakeAttendancePage() {
           </div>
         </div>
 
-        {!modelsLoaded ? (
-          <div className="flex flex-col items-center gap-2 pt-2">
-            <div className="w-6 h-6 border-2 border-primary-500/30 border-t-primary-500 rounded-full animate-spin" />
-            <p className="text-xs text-gray-500">
-              {loadingModels ? 'Loading face models...' : 'Waiting for models...'}
-            </p>
-          </div>
-        ) : (
-          <motion.button
-            whileHover={{ scale: 1.01 }}
-            whileTap={{ scale: 0.99 }}
-            onClick={startSession}
-            disabled={!config.department || !config.semester || !config.subject}
-            className="gradient-btn w-full py-4 text-center text-lg font-semibold disabled:opacity-30 flex items-center justify-center gap-3"
-          >
-            <HiOutlineCamera className="text-xl" />
-            Start Attendance Session
-          </motion.button>
-        )}
+        <AnimatePresence mode="wait">
+          {!modelsLoaded ? (
+            <motion.div
+              key="loader"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              className="flex flex-col items-center gap-2 pt-2 transform-gpu"
+            >
+              <div className="w-6 h-6 border-2 border-primary-500/30 border-t-primary-500 rounded-full animate-spin" />
+              <p className="text-xs text-gray-500">
+                {loadingModels ? 'Loading face models...' : 'Waiting for models...'}
+              </p>
+            </motion.div>
+          ) : (
+            <motion.button
+              key="start-btn"
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.95 }}
+              whileHover={{ scale: 1.015, y: -1 }}
+              whileTap={{ scale: 0.985 }}
+              transition={{ type: 'spring', stiffness: 500, damping: 22 }}
+              onClick={startSession}
+              disabled={!config.department || !config.semester || !config.subject}
+              className="gradient-btn w-full py-4 text-center text-lg font-semibold disabled:opacity-30 flex items-center justify-center gap-3 transform-gpu will-change-transform"
+            >
+              <HiOutlineCamera className="text-xl" />
+              Start Attendance Session
+            </motion.button>
+          )}
+        </AnimatePresence>
       </div>
     </motion.div>
   );

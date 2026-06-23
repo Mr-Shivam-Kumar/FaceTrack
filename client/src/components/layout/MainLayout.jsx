@@ -13,15 +13,16 @@ export default function MainLayout() {
       <motion.div
         initial={false}
         animate={{ marginLeft: collapsed ? 80 : 280 }}
-        transition={{ duration: 0.3, ease: 'easeInOut' }}
-        className="flex flex-col min-h-screen"
+        transition={{ type: 'spring', stiffness: 220, damping: 26 }}
+        className="flex flex-col min-h-screen transform-gpu"
       >
         <Header />
         <main className="flex-1 p-6">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+            className="transform-gpu will-change-transform"
           >
             <Outlet />
           </motion.div>

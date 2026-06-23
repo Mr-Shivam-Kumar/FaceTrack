@@ -35,7 +35,12 @@ export default function StudentDashboard() {
   const overallPercent = stats?.overallPercentage || stats?.attendancePercentage || 82;
 
   return (
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
+    <motion.div
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+      className="space-y-6 transform-gpu will-change-transform"
+    >
       <div>
         <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Welcome, {user?.name?.split(' ')[0] || 'Student'}!</h1>
         <p className="text-gray-500 text-sm mt-1">Here's your attendance summary</p>

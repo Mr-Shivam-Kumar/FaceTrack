@@ -25,8 +25,8 @@ const Card = ({
   const Wrapper = hoverable ? motion.div : 'div';
   const motionProps = hoverable
     ? {
-        whileHover: { scale: 1.01, y: -2 },
-        transition: { type: 'spring', stiffness: 300, damping: 20 },
+        whileHover: { scale: 1.015, y: -4 },
+        transition: { duration: 0.4, ease: [0.16, 1, 0.3, 1] },
       }
     : {};
 
@@ -39,8 +39,8 @@ const Card = ({
         border border-gray-200/50 dark:border-white/5
         shadow-lg shadow-black/5 dark:shadow-black/20
         ${noPadding ? '' : 'p-6'}
-        ${hoverable ? 'cursor-pointer hover:border-primary-500/20 dark:hover:border-primary-500/20 hover:shadow-primary-500/5' : ''}
-        transition-colors duration-300
+        ${hoverable ? 'cursor-pointer hover:border-primary-500/20 dark:hover:border-primary-500/20 hover:shadow-primary-500/5 transform-gpu will-change-transform' : ''}
+        transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] duration-300
         ${className}
       `}
       {...motionProps}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '../../contexts/AuthContext';
 import { HiOutlineEnvelope, HiOutlineLockClosed, HiOutlineEye, HiOutlineEyeSlash } from 'react-icons/hi2';
 import { RiShieldUserLine } from 'react-icons/ri';
@@ -66,42 +66,42 @@ export default function LoginPage() {
             <RiShieldUserLine className="text-white text-5xl" />
           </motion.div>
           <motion.h1
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
-            className="text-5xl font-bold gradient-text mb-4"
+            transition={{ delay: 0.4, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+            className="text-5xl font-bold gradient-text mb-4 transform-gpu"
           >
             FaceTrack
           </motion.h1>
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6 }}
-            className="text-xl text-gray-600 dark:text-gray-400 mb-2"
+            transition={{ delay: 0.5, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+            className="text-xl text-gray-600 dark:text-gray-400 mb-2 transform-gpu"
           >
             Smart Attendance System
           </motion.p>
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.7 }}
-            className="text-gray-600 text-sm leading-relaxed"
+            transition={{ delay: 0.6, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+            className="text-gray-600 text-sm leading-relaxed transform-gpu"
           >
             AI-powered face recognition for automated attendance tracking.
-            Secure, accurate, and completely offline.
+            Secure, accurate, and Cloud Secured.
           </motion.p>
 
           {/* Feature highlights */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.9 }}
-            className="mt-12 grid grid-cols-3 gap-4 text-center"
+            transition={{ delay: 0.7, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+            className="mt-12 grid grid-cols-3 gap-4 text-center transform-gpu"
           >
             {[
               { value: '99.2%', label: 'Accuracy' },
               { value: '<1s', label: 'Recognition' },
-              { value: '100%', label: 'Offline' }
+              { value: '100%', label: 'Cloud Secured' }
             ].map((stat, i) => (
               <div key={i} className="glass-card p-4">
                 <p className="text-2xl font-bold gradient-text">{stat.value}</p>
@@ -184,14 +184,33 @@ export default function LoginPage() {
               <motion.button
                 type="submit"
                 disabled={loading}
-                whileTap={{ scale: 0.97 }}
-                className="gradient-btn w-full py-3.5 text-center disabled:opacity-50 flex items-center justify-center gap-2"
+                whileHover={!loading ? { scale: 1.015, y: -0.5 } : {}}
+                whileTap={!loading ? { scale: 0.95 } : {}}
+                transition={{ type: 'spring', stiffness: 500, damping: 22 }}
+                className="gradient-btn w-full py-3.5 text-center disabled:opacity-50 flex items-center justify-center gap-2 transform-gpu will-change-transform"
               >
-                {loading ? (
-                  <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                ) : (
-                  'Sign In'
-                )}
+                <AnimatePresence mode="wait">
+                  {loading ? (
+                    <motion.div
+                      key="loader"
+                      initial={{ opacity: 0, scale: 0.6 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 0.6 }}
+                      transition={{ duration: 0.15 }}
+                      className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"
+                    />
+                  ) : (
+                    <motion.span
+                      key="text"
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ duration: 0.15 }}
+                    >
+                      Sign In
+                    </motion.span>
+                  )}
+                </AnimatePresence>
               </motion.button>
             </form>
 

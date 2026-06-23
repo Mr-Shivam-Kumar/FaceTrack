@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import api from '../../services/api';
 import Button from '../../components/ui/Button';
 import { HiOutlineDocumentArrowDown, HiOutlineDocumentChartBar } from 'react-icons/hi2';
@@ -39,7 +39,12 @@ export default function ReportsPage() {
   };
 
   return (
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
+    <motion.div
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+      className="space-y-6 transform-gpu will-change-transform"
+    >
       <div><h1 className="text-2xl font-bold">Reports</h1><p className="text-gray-500 text-sm mt-1">Generate and export attendance reports</p></div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -83,10 +88,13 @@ export default function ReportsPage() {
               { format: 'excel', label: 'Excel Spreadsheet', desc: 'XLSX file with formatted sheets', color: 'from-emerald-500 to-green-600' },
               { format: 'csv', label: 'CSV File', desc: 'Plain data for further analysis', color: 'from-blue-500 to-cyan-600' }
             ].map(opt => (
-              <motion.button key={opt.format} whileTap={{ scale: 0.98 }}
+              <motion.button key={opt.format}
+                whileHover={{ scale: 1.015, y: -2 }}
+                whileTap={{ scale: 0.98 }}
+                transition={{ type: 'spring', stiffness: 500, damping: 22 }}
                 onClick={() => { setConfig({...config, format: opt.format}); handleGenerate(opt.format); }}
                 disabled={!!generating}
-                className="w-full p-4 glass-card hover:border-white/10 transition-all text-left flex items-center gap-4 disabled:opacity-50">
+                className="w-full p-4 glass-card hover:border-primary-500/20 dark:hover:border-white/10 transition-[border-color,background-color,box-shadow] duration-300 text-left flex items-center gap-4 disabled:opacity-50 transform-gpu will-change-transform">
                 <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${opt.color} flex items-center justify-center flex-shrink-0`}>
                   <HiOutlineDocumentArrowDown className="text-white" />
                 </div>
@@ -94,7 +102,17 @@ export default function ReportsPage() {
                   <p className="text-sm font-medium">{opt.label}</p>
                   <p className="text-xs text-gray-500">{opt.desc}</p>
                 </div>
-                {generating === opt.format && <div className="ml-auto w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />}
+                <AnimatePresence>
+                  {generating === opt.format && (
+                    <motion.div
+                      initial={{ opacity: 0, scale: 0.6 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 0.6 }}
+                      transition={{ duration: 0.15 }}
+                      className="ml-auto w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin flex-shrink-0"
+                    />
+                  )}
+                </AnimatePresence>
               </motion.button>
             ))}
           </div>

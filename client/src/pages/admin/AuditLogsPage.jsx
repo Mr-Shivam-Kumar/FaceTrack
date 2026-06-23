@@ -108,7 +108,12 @@ export default function AuditLogsPage() {
   ];
 
   return (
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
+    <motion.div
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+      className="space-y-6 transform-gpu will-change-transform"
+    >
       <div>
         <h1 className="text-2xl font-bold">Audit Logs</h1>
         <p className="text-gray-500 text-sm mt-1">Review system logs, user actions, and modifications</p>

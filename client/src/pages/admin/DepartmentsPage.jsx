@@ -40,7 +40,12 @@ export default function DepartmentsPage() {
   const colors = ['from-blue-500 to-cyan-500', 'from-purple-500 to-pink-500', 'from-emerald-500 to-green-500', 'from-amber-500 to-orange-500', 'from-rose-500 to-red-500'];
 
   return (
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
+    <motion.div
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+      className="space-y-6 transform-gpu will-change-transform"
+    >
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Departments</h1>
@@ -60,8 +65,14 @@ export default function DepartmentsPage() {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {departments.map((dept, i) => (
-            <motion.div key={dept._id} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.1 }}
-              className="glass-card p-6 hover:border-gray-200 dark:hover:border-white/10 transition-all group">
+            <motion.div
+              key={dept._id}
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.02, y: -4 }}
+              transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1], delay: i * 0.04 }}
+              className="glass-card p-6 hover:border-primary-500/20 dark:hover:border-white/10 transition-[border-color,background-color,box-shadow] duration-300 transform-gpu will-change-transform group"
+            >
               <div className="flex items-start justify-between mb-4">
                 <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${colors[i % colors.length]} flex items-center justify-center shadow-lg`}>
                   <HiOutlineBuildingOffice2 className="text-white text-xl" />
